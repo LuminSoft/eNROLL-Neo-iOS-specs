@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = s.version.to_s + "/EnrollNeoFramework.xcframework"
   
   s.dependency 'EnrollNeoCore','1.0.17'
-  s.dependency 'NFCPassportReader', :git => 'https://github.com/AndyQ/NFCPassportReader.git'
+  s.dependency 'NFCPassportReader'
 
 
 end
